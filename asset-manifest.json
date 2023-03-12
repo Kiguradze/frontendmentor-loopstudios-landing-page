@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frontendmentor-loopstudios-landing-page/static/css/main.7ab58c12.css",
+    "main.css": "/frontendmentor-loopstudios-landing-page/static/css/main.a8a5c557.css",
     "main.js": "/frontendmentor-loopstudios-landing-page/static/js/main.181410b3.js",
     "static/media/image-hero.jpg": "/frontendmentor-loopstudios-landing-page/static/media/image-hero.9b5aacead42e955824d3.jpg",
     "static/media/image-from-above.jpg": "/frontendmentor-loopstudios-landing-page/static/media/image-from-above.f316f3f3afc353415f71.jpg",
@@ -13,11 +13,11 @@
     "static/media/image-fisheye.jpg": "/frontendmentor-loopstudios-landing-page/static/media/image-fisheye.ff97b54ec44101e44215.jpg",
     "static/media/image-pocket-borealis.jpg": "/frontendmentor-loopstudios-landing-page/static/media/image-pocket-borealis.0b89db1f6a9c0e56dcfd.jpg",
     "index.html": "/frontendmentor-loopstudios-landing-page/index.html",
-    "main.7ab58c12.css.map": "/frontendmentor-loopstudios-landing-page/static/css/main.7ab58c12.css.map",
+    "main.a8a5c557.css.map": "/frontendmentor-loopstudios-landing-page/static/css/main.a8a5c557.css.map",
     "main.181410b3.js.map": "/frontendmentor-loopstudios-landing-page/static/js/main.181410b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ab58c12.css",
+    "static/css/main.a8a5c557.css",
     "static/js/main.181410b3.js"
   ]
 }
