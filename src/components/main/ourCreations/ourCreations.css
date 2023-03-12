@@ -1,0 +1,138 @@
+.ourCreations-container {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.ourCreations-container-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.ourCreations-btn {
+  width: fit-content;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.ourCreations-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.ourCreations-container-heading h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.grid-item {
+  position: relative;
+  background: white;
+  overflow: hidden;
+  cursor: pointer;
+  background: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-item:hover {
+  background: none;
+}
+
+.grid-img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-item:hover .grid-img {
+  opacity: 0.3;
+}
+
+.grid-item:hover .grid-img-name {
+  color: black;
+}
+
+.grid-img-name {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.mb-button {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .ourCreations-container-heading {
+    justify-content: center;
+  }
+
+  .ourCreations-container-heading button {
+    display: none;
+  }
+
+  .mb-button {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .ourCreations-container-heading h1 {
+    font-size: 36px;
+  }
+
+  .grid {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .ourCreations-container-heading h1 {
+    font-size: 30px;
+  }
+
+  .grid-img-name {
+    font-size: 24px;
+  }
+
+  .mb-button {
+    padding: 10px 30px;
+  }
+}

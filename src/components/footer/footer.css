@@ -1,0 +1,110 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  min-height: 170px;
+}
+
+.footer .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-nav ul li {
+  position: relative;
+}
+
+.footer-nav ul li:hover::after {
+  opacity: 1;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-nav ul li::after {
+  position: absolute;
+  content: "";
+  opacity: 0;
+  left: 20%;
+  bottom: -10px;
+  width: 30%;
+  height: 2px;
+  background: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-nav ul li a:hover {
+  color: white;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.social-icon {
+  position: relative;
+}
+
+.social-icon::after {
+  position: absolute;
+  content: "";
+  opacity: 0;
+  bottom: -10px;
+  left: 30%;
+  width: 50%;
+  height: 2px;
+  background: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover::after {
+  opacity: 1;
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-container {
+    align-items: center;
+  }
+}
