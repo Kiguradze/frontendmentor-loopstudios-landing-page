@@ -7,7 +7,6 @@ const Header = () => {
   const [active, setActive] = useState(false);
 
   const togleClick = () => {
-    console.log(active);
     setActive(!active);
   };
 
