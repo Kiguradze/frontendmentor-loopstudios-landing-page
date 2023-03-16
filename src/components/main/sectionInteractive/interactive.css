@@ -1,81 +1,81 @@
 .interactive-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 100%;
-  margin: 100px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 100%;
+   margin: 100px 0;
 }
 
 .interactive-desc {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  transform: translate(-200px, 150px);
-  padding: 80px;
-  background-color: hsl(0, 0%, 100%);
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-evenly;
+   transform: translate(-200px, 150px);
+   padding: 80px;
+   background-color: hsl(0, 0%, 100%);
 }
 
 .interactive-desc h1 {
-  font-size: 60px;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
+   font-size: 60px;
+   font-family: "Josefin Sans", sans-serif;
+   text-transform: uppercase;
 }
 
 .interactive-desc p {
-  color: hsl(0, 0%, 41%);
-  width: 85%;
-  line-height: 20px;
+   color: hsl(0, 0%, 41%);
+   width: 85%;
+   line-height: 20px;
 }
 
 @media only screen and (max-width: 1140px) {
-  .interactive-desc h1 {
-    font-size: 40px;
-  }
+   .interactive-desc h1 {
+      font-size: 40px;
+   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .interactive-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+   .interactive-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+   }
 
-  .interactive-desc {
-    transform: translate(0, 0);
-    align-items: center;
-    text-align: center;
-  }
+   .interactive-desc {
+      transform: translate(0, 0);
+      align-items: center;
+      text-align: center;
+   }
 
-  .interactive-desc h1 {
-    margin-bottom: 20px;
-  }
+   .interactive-desc h1 {
+      margin-bottom: 20px;
+   }
 }
 
 @media only screen and (max-width: 834px) {
-  .interactive-img {
-    max-width: 100%;
-  }
+   .interactive-img {
+      max-width: 100%;
+   }
 
-  .interactive-desc {
-    margin-top: 100px;
-    max-width: 100%;
-    padding: 0;
-  }
+   .interactive-desc {
+      margin-top: 100px;
+      max-width: 100%;
+      padding: 0;
+   }
 }
 
 @media only screen and (max-width: 425px) {
-  .interactive-container {
-    height: auto;
-  }
+   .interactive-container {
+      height: auto;
+   }
 
-  .interactive-desc {
-    margin-top: 50px;
-  }
+   .interactive-desc {
+      margin-top: 50px;
+   }
 }
 
 @media only screen and (max-width: 320px) {
-  .interactive-desc h1 {
-    font-size: 32px;
-  }
+   .interactive-desc h1 {
+      font-size: 32px;
+   }
 }
